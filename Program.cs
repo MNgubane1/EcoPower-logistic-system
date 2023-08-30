@@ -1,5 +1,7 @@
+using WebApplication1.Models;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 var securityScheme = new OpenApiSecurityScheme
@@ -11,6 +13,9 @@ var securityScheme = new OpenApiSecurityScheme
     Scheme = "Bearer",
     BearerFormat = "JWT"
 };
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ProductsDBContext>(options => options.UseSqlServer(connectionString));
+
 
 
 // Add services to the container.
@@ -18,9 +23,9 @@ var securityScheme = new OpenApiSecurityScheme
 builder.Services.AddControllers();
 builder.Services.AddAuthentication(options =>
 {
-    ValidIssuer = builder.Configuration["Jwt:ValidIssuer"],
-ValidAudience = builder.Configuration["Jwt:ValidAudience"],                    
-IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Secret"]))
+   // ValidIssuer = builder.Configuration["Jwt:ValidIssuer"],
+//ValidAudience = builder.Configuration["Jwt:ValidAudience"],                    
+//IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Secret"]))
 
             });
 

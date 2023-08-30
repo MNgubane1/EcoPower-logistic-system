@@ -1,6 +1,9 @@
-﻿namespace WebApplication1.Authentication
+﻿
+using Microsoft.AspNetCore.Identity;
+
+namespace WebApplication1.Authentication
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
     }
 }
