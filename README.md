@@ -1,16 +1,13 @@
-﻿# CMPG323-project2-30336570
-
-
 REadME.md file
+
+API PROJECT
+
+![download](https://github.com/MNgubane1/CMPG323-Project2-30336570/assets/141171742/2a459c7e-0b4d-490f-82db-c3bbe7bd12f0)
+
 Project description 
-In the this project we are creating a system solution for EcoPower logistic which is the business company that deals with selling wide range of part and components essential for installing ,functioning , and optimizing solar  that will make determined efforts to deal with
-
-
-
-
-
-
-
+In  this Api project we are creating a logistics management system solution for EcoPower logistic which is the business company that deals with selling wide range of part and components essential for installing ,functioning , and optimizing solar.  
+This solution system  must solve the complexities of acquiring, storing, and transporting resources and goods globally, requiring meticulous coordination. Through this system, EcoPower Logistics must receive and process orders, while the warehouse serves as a secure storage facility and goods must tracked from the company to destination to make sure the safety through inspection of  it vehicles to detect the  any problems in advance that can affect condition of goods using Order table where the tracking IDs will be assign to each and every Order by facilitating seamless scanning and processing and providing users with access to real-time order status updates for tracking in every stage.
+In this project API is integrated  to improve the overall customer experience and unlock new opportunities for growth, efficiency, and service excellence. EcoPower Logistics services will be managed in this system using the cloud through API design  and the system is implemented as Aa set of RESTFUL APIs. Where a RESTful APIs and services are used as a good practice in the industry to transport data between systems, environments, interfaces and applications. the CRUD methods are used in this project  to retrieval of data and manipulation of data  for Example create, read, update and delete methods over HTTP
 
 
 
@@ -27,7 +24,6 @@ reference
 
 7 ,EF Core 6 🚀 database first / DB First (entity Framework Core 6 / .NET 6) (2022) YouTube. Available at: https://youtu.be/2bsRQIhtTxs (Accessed: 20 August 2023). 
 1.  10 aug CMPG323 Weekly Virtual class API controllers (2023) YouTube. Available at: https://youtu.be/kiSJGGy29fY (Accessed: 20 August 2023). 
-
 
 
 
