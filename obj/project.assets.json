@@ -11963,19 +11963,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itstudent\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itstudent\\Desktop\\CMPG323-Project2-30336570\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\CMPG323-Project2-30336570\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\itstudent\\Desktop\\CMPG323-Project2-30336570\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\itstudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itstudent\\Desktop\\CMPG323-Project2-30336570\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\CMPG323-Project2-30336570\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\CMPG323-Project2-30336570\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\itstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11983,7 +11983,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12062,7 +12061,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
