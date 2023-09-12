@@ -10,6 +10,12 @@ This solution system  must solve the complexities of acquiring, storing, and tra
 In this project API is integrated  to improve the overall customer experience and unlock new opportunities for growth, efficiency, and service excellence. EcoPower Logistics services will be managed in this system using the cloud through API design  and the system is implemented as Aa set of RESTFUL APIs. Where a RESTful APIs and services are used as a good practice in the industry to transport data between systems, environments, interfaces and applications. the CRUD methods are used in this project  to retrieval of data and manipulation of data  for Example create, read, update and delete methods over HTTP
 
 
+lINK TO Link to API on Azure:
+
+
+
+https://mazwiapp.azurewebsites.net/
+
 
 reference 
 
